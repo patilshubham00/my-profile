@@ -4,9 +4,15 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Profile</title>
+
     <!-- CDN Link -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <style>
+
+<!-- GOOGLE FONT FAMILY -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Lobster&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Protest+Guerrilla&display=swap" rel="stylesheet">
+<style>
       header{
         padding: 20px;
         background-color: rgb(216, 244, 245);
@@ -18,10 +24,12 @@
       .heading{
         color: cadetblue;
         font-style: italic;
+        font-family: "Poppins", sans-serif;
       }
       .header-info{
         margin-right: 20px;
         margin-left: 10px;
+        font-family: "Poppins", sans-serif;
       }
       #resume-text{
         margin-left: 10px;
@@ -29,7 +37,23 @@
       li{
         padding-top: 20px;
       }
-    </style>
+      table,tr,th,td{
+        border: 2px solid rgb(22, 20, 20);
+        border-collapse: collapse;
+      }
+      th,td{
+        padding: 20px;
+      }
+      #techTable{
+        width: 50%;
+      }
+      #listsummary{
+        font-family: "Lobster", sans-serif;
+      }
+      #row{
+        font-family: "Protest Guerrilla", sans-serif;
+      }
+      </style>
       
       
   </head>
@@ -47,7 +71,7 @@
         
 
     <!-- Navigation Section  -->
-    <nav>
+    <nav id="row">
         <a href="#home" code style="text-decoration:none;">HOME</a> &nbsp;  &nbsp; &nbsp;  &nbsp; 
         <a href="#techstack" code style="text-decoration:none;">TECH STACK</a> &nbsp;  &nbsp; &nbsp;  &nbsp;  
         <a href="#projects" code style="text-decoration:none;">PROJECTS</a> &nbsp;  &nbsp; &nbsp;  &nbsp; 
@@ -61,7 +85,7 @@
         <!-- HOME SECTION -->
         <section id="home">
             <h2 class="heading">Professional Summary </h2>
-            <ul>
+            <ul id="listsummary">
                 <li >Having 1 year of experience in developing single page Web Application using Angular8,HTML5,CSS3,Bootstrap5,Javascript,TypeScript</li>
                 <li>Experience on working with vision control system - GIT and GitHub</li>
                 <li>Experience working with JIRA for user stories and bug tracking</li>
@@ -80,7 +104,7 @@
 
         <section id="techstack">
           <h2 class="heading">My Technology Stack is</h2>
-          <table border="6">
+          <table border="6" id="techTable">
             <thead>
               <tbody>
                 <tr>
@@ -130,8 +154,8 @@
         <p><strong>Project Description:</strong>This is mainly used for student management in college,where it help to manage student record like <br>
         student regitration,student update and,to see all the list of academic activities like score card and attendance</p>
         <hr>
-        <h2>Roles and Responsibilities</h2>
-          <ul>
+        <h2 class="heading">Roles and Responsibilities</h2>
+          <ul id="listsummary">
             <li>Designed and implemented the user interface using HTML5 and CSS3</li>
             <li>Work closely with backend developers for code integration</li>
             <li>Identifying troubleshooting issues in front codebase</li>
@@ -160,29 +184,29 @@
               </tbody>
               <tbody>
                 <tr>
-                  <th>B.E</th>
-                  <th>CSMIT,Shendung,Panvel</th>
-                  <th>Mumbai</th>
-                  <th>2019</th>
-                  <th>61.27%</th>
+                  <td>B.E</td>
+                  <td>CSMIT,Shendung,Panvel</td>
+                  <td>Mumbai</td>
+                  <td>2019</td>
+                  <td>61.27%</td>
                 </tr>
               </tbody>
               <tbody>
                 <tr>
-                  <th>Diploma</th>
-                  <th>VJTI,Matunga,Mumbai</th>
-                  <th>Autonomous</th>
-                  <th>2016</th>
-                  <th>72.29%</th>
+                  <td>Diploma</td>
+                  <td>VJTI,Matunga,Mumbai</td>
+                  <td>Autonomous</td>
+                  <td>2016</td>
+                  <td>72.29%</td>
                 </tr>
               </tbody>
               <tbody>
                 <tr>
-                  <th>SSC</th>
-                  <th>DVS,High School,Koparkhairane,Navi Mumbai</th>
-                  <th>State Board</th>
-                  <th>2013</th>
-                  <th>90.73%</th>
+                  <td>SSC</td>
+                  <td>DVS,High School,Koparkhairane,Navi Mumbai</td>
+                  <td>State Board</td>
+                  <td>2013</td>
+                  <td>90.73%</td>
                 </tr>
               </tbody>
             </thead>
