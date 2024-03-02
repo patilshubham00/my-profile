@@ -53,6 +53,21 @@
       #row{
         font-family: "Protest Guerrilla", sans-serif;
       }
+      #listsummary li{
+        list-style-type: none;
+      }
+      #listsummary li::marker{
+        content: "✍️";
+      }
+      .Roles ol{
+        list-style-type: lower-alpha;
+      }
+      .Roles{
+        font-family: "Lobster", sans-serif;
+      }
+      #projectDesc::selection{
+      background-color: rgb(241, 193, 104);
+    }
       </style>
       
       
@@ -86,7 +101,7 @@
         <section id="home">
             <h2 class="heading">Professional Summary </h2>
             <ul id="listsummary">
-                <li >Having 1 year of experience in developing single page Web Application using Angular8,HTML5,CSS3,Bootstrap5,Javascript,TypeScript</li>
+                <li>Having 1 year of experience in developing single page Web Application using Angular8,HTML5,CSS3,Bootstrap5,Javascript,TypeScript</li>
                 <li>Experience on working with vision control system - GIT and GitHub</li>
                 <li>Experience working with JIRA for user stories and bug tracking</li>
                 <li>Strong debugging & troubleshooting code experience using Chrome Developer Tool</li>
@@ -115,30 +130,30 @@
               </tbody>
               <tbody>
                 <tr>
-                  <th>1</th>
-                  <th>HTML</th>
-                  <th>4</th>
+                  <th>1</td>
+                  <th>HTML</td>
+                  <th>4</td>
                 </tr>
               </tbody>
               <tbody>
                 <tr>
-                  <th>2</th>
-                  <th>CSS</th>
-                  <th>4</th>
+                  <td>2</td>
+                  <td>CSS</td>
+                  <td>4</td>
                 </tr>
               </tbody>
               <tbody>
                 <tr>
-                  <th>3</th>
-                  <th>JavaScript</th>
-                  <th>4</th>
+                  <td>3</td>
+                  <td>JavaScript</td>
+                  <td>4</td>
                 </tr>
               </tbody>
               <tbody>
                 <tr>
-                  <th>4</th>
-                  <th>React</th>
-                  <th>3</th>
+                  <td>4</td>
+                  <td>React</td>
+                  <td>3</td>
                 </tr>
               </tbody>
             </thead>
@@ -151,11 +166,11 @@
         <h2 class="heading">Project Details</h2>
         <p><strong><u>Environment:</u></strong>Angular,React,Java,JavaScript,CSS,HTML,Bootstrap and Github</p>
         <p><strong>Team Size:</strong> 06  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>Duration:</strong><i> 2021-1 <sup>st</sup>-july till <u>present</u></i></p>
-        <p><strong>Project Description:</strong>This is mainly used for student management in college,where it help to manage student record like <br>
+        <p id="projectDesc"><strong>Project Description:</strong>This is mainly used for student management in college,where it help to manage student record like <br>
         student regitration,student update and,to see all the list of academic activities like score card and attendance</p>
         <hr>
         <h2 class="heading">Roles and Responsibilities</h2>
-          <ul id="listsummary">
+          <ol class="Roles">
             <li>Designed and implemented the user interface using HTML5 and CSS3</li>
             <li>Work closely with backend developers for code integration</li>
             <li>Identifying troubleshooting issues in front codebase</li>
@@ -163,7 +178,7 @@
             <li>Used JIRA for bug tracking</li>
             <li>Implemented project using agile SCRUM methodology,involved in daily stand up calls,sprint retrospective meetings</li>
             <li>involved in fixing technical issues in production environment</li>
-        </ul>
+        </Ol>
         </section>
         <hr>
         
