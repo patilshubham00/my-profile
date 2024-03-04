@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Card</title>
+    <style>
+        
+        #mainsection{
+            width: 800px;
+            margin:20px auto ;
+            font-weight: bolder; 
+            display: grid;
+            align-items: center;
+            column-gap: 5px;
+            grid-template-columns: 1fr 1fr 1fr;
+        }
+        #stock{
+        background-color: rgb(0, 0, 0);
+        width: 300px;
+        padding: 20px;
+        margin: 20px;
+        border: 5px seagreen;
+        margin-left: 560px;
+        border-radius: 25px;
+        padding-right: 0px;
+        text-align: left;
+        padding-top: 1px;
+        }
+        #head{
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(35, 175, 91);
+    
+    
+}
+#asset{
+    margin-left: 10px;
+}
+.img{
+    display:inline-block;
+    margin: 0px; 
+    color: white;  
+}
+    </style>
+</head>
+<body>
+
+    <!-- Main Section -->
+    
+    <section id="mainsection">
+      
+        <!-- Photo Section -->
+        <section>
+            <img src="assets/it image.jpg" alt="" width="300" height="200">
+        </section>
+
+        <!-- Info Section -->
+        <section>
+            <h2>Compare Text Online</h2>
+            <ul>
+                <li>Compare Text Online Free</li>
+                <li>Supports  large file comparison</li>
+                <li>Ignore order and name space</li>
+                <li>side by side diff view</li>
+                <li>get results in tabular format for quick reference</li>
+                <li>TEXT diff Tool</li>
+                <li>REST API</li>
+            </ul>
+        </section>
+    </section>
+<hr>
+       <!-- Main Section -->
+      <section  id="stock">
+        <section>
+            <p id="head">2 Stocks Recommendation Weekly</p>
+        </section>
+     <section class="img">
+        <p class="img">Midcap Stocks Gaining <br>Momentum after 30-40% fall <br> from 52 Week High</p>
+        <p class="img" id="asset"><img src="assets/images01.png" alt="" width="70" height="70"></p>
+     </section>
+    </section>
+     <hr>  
+</body>
+</html>
+
+
+
+
+
+      
