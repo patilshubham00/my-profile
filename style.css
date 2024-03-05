@@ -3,10 +3,11 @@
 
 /* Universal Selector */
 *{
-    margin: 0;
-    box-sizing: border-box;
-    list-style-type: none;
+  margin: 0;
+  box-sizing: border-box;
+  list-style-type: none; 
 }
+
 /* Header Section */
 header{
     padding: 8px;
@@ -21,6 +22,9 @@ header{
     color: cadetblue;
     font-style: italic;
     font-family: "Poppins", sans-serif;
+  }
+  #fix{
+    position: fixed;
   }
   .header-info{
     margin-right: 20px;
@@ -37,9 +41,12 @@ header{
     text-decoration: none;
     letter-spacing: 2px;
     font-weight: bold;
+  
   }
   #navsection{
-    padding: 10px;
+    background-color: cadetblue;
+    position: fixed;
+    top: 50px;
     text-align: left;
   }
   #navsection li{
@@ -48,9 +55,10 @@ header{
   }
   /* Container Section */
   #container{
-    border: 5px solid blue;
+    border: 5px solid rgb(0, 0, 0);
     width: 800px;
-    margin:20px auto ;
+    /* margin:20px auto ; */
+    
   }
   li{
     padding-top: 20px;
@@ -82,4 +90,16 @@ header{
   }
   #projectDesc::selection{
   background-color: rgb(241, 193, 104);
+}
+.whatsapp{
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  font-size: xx-large;
+}
+.chat{
+  position: fixed;
+  bottom: 20px;
+  right: 80px;
+  font-size: xx-large;
 }
