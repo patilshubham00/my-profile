@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subscriber</title>
+    <style>
+        #main{
+            border: 2px solid black;
+            background-color: rgb(242, 241, 239);
+            border-radius: 20px;
+            width: 350px;
+            height: 400px;
+            margin: 100px auto;
+            box-shadow: 13px 13px 10px -5px;
+        }
+        #content{
+            border: 2px solid black;
+            background-color: aqua ;
+            border-radius: 10px;
+            width: 310px;
+            height: 150px;
+            margin: 10px auto;
+        }
+        #para{
+            margin: 20px;
+        }
+        #star{
+            color: brown;
+        }
+        #button{
+            border-radius: 10px;
+            position: relative;
+            top: 20px;
+            left: 230px;
+        }
+        #table{
+            margin-left: 15px;
+        }
+    </style>
+</head>
+<body>
+    <section id="main">
+        <h2>Subscriber</h2>
+        <hr>
+        <p id="content">
+           <span id="para">
+            We're sorry to see you go, but hey, no hard feeling, hopefully we will see you back one day. <br>
+           Please fill in your email address in order to unsubscribe form the list. <br>
+           You will Receive  an email to confirm your unsubscription , just to make sure this is not an accident or somebody else tries to unsubscribe you
+        </span>
+        </p>
+        <table id="table">
+            <tbody>
+                <tr>
+                    <td><label for="">Email <span id="star">*</span></label></td>
+                </tr>
+                <tr>
+                    <td><input type="email"> <br></td>
+                </tr>
+                <tr>
+                    <td><label for="">Unsubscribe Reason</label></td>
+                </tr>
+                <tr>
+                    <td><input type="text" placeholder="Unsubscribe Reason"></td>
+                </tr>
+            </tbody>
+        </table>
+        <button type="Unsubscribe" id="button"> Unsubscribe</button>   
+    </section>
+</body>
+</html>
